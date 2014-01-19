@@ -57,6 +57,22 @@ table {
   background-position: 0 0;
 }
 
+.icons-sprite, .icons-heart, .icons-movie, .icons-skull {
+  background: url('../img/icons-s22bd6c011b.png') no-repeat;
+}
+
+.icons-heart {
+  background-position: 0 -100px;
+}
+
+.icons-movie {
+  background-position: 0 -200px;
+}
+
+.icons-skull {
+  background-position: 0 0;
+}
+
 body {
   font-size: 18px;
   font-family: "Alegreya", Georgia, serif;

@@ -5,6 +5,9 @@
 
 @import "compass/css3/background-size";
 
+@import "icons/*.png";
+@include all-icons-sprites;
+
 $corner-radius: 10px;
 $blue: #4D5D6F;
 $dark-blue: #1C2630;
@@ -263,6 +266,7 @@ h2 {
 .jl {
     @extend %set;
     @include hover-symbol("✌");
+
 }
 
 /* VILLAINS */
